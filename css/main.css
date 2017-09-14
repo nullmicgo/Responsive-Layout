@@ -1,0 +1,102 @@
+/******************************
+Flexbox Layout
+*******************************/
+
+.header, .nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  justify-content: space-between;
+}
+
+.nav {
+  flex: 1;
+  justify-content: space-around;
+}
+
+
+@media all and (min-width: 640px) {
+  .header, .nav {
+    flex-direction: row;
+  }
+}
+
+@media all and (min-width: 1030px) {
+  .nav {
+    flex: none;
+  }
+}
+
+
+/******************************
+Additional Styling
+*******************************/
+
+body {
+  margin: 0;
+  font-family: Helvetica;
+  background: #fafafa;
+}
+
+.header {
+  padding: 20px 0;
+  margin: 0 auto;
+}
+.about{
+  padding: 20px 0;
+  margin: 0 auto;
+}
+
+.about img{
+	float: right;
+
+}
+
+.logo {
+  width: 195px;
+  padding-top: 10px;
+  font-size: 20px;
+}
+
+.nav {
+  list-style: none;
+}
+
+.nav li {
+  margin: 12px 0 12px 28px;
+}
+
+.nav li a {
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.nav li a:hover {
+  color: grey;
+}
+
+.nav li:first-child a {
+  border-radius: 2px;
+  transition: 200ms ease-in-out;
+  padding: 8px 16px 7px;
+}
+
+.nav li:first-child a:hover {
+  color: grey;
+}
+
+@media all and (min-width: 1024px) {
+  .header {
+    width: 1024px;
+    min-width: 768px;
+  }
+  .about {
+    width: 1024px;
+    min-width: 768px;
+  }
+}
