@@ -27,18 +27,18 @@ h3 {} a {
 ul {
     list-style-type: none;
 }
-strong{
-  color: black;
-  font-weight: bold;
+strong {
+    color: black;
+    font-weight: bold;
 }
 /******************************
 Base Layout Styles
 *******************************/
 /* ---- Navigation -----  */
 
-.treehouse a{
-  color: #62d07f;
-  font-weight: bold;
+.treehouse a {
+    color: #62d07f;
+    font-weight: bold;
 }
 .name {
     font-size: 1.80em;
@@ -89,7 +89,6 @@ Base Layout Styles
     font-size: 0.95em;
     padding-bottom: 20px;
     font-family: 'Roboto', sans-serif;
-
 }
 .portfolio-item h3 {
     color: black;
@@ -98,6 +97,12 @@ Base Layout Styles
 .contact {
     text-align: center;
     font-weight: lighter;
+}
+.contact a {
+    color: #62d07f;
+}
+.contact a:hover {
+    color: #a4caae;
 }
 hr.seperate-style {
     border: none;
@@ -127,11 +132,9 @@ hr.seperate-style {
 .back-top-top {
     text-transform: uppercase;
 }
-
-.back-top-top a{
-    color:black;
+.back-top-top a {
+    color: black;
 }
-
 /******************************
 Layout Container
 *******************************/
@@ -225,7 +228,6 @@ Media Queries
     .main-nav a {
         background: transparent;
     }
-
     .portfolio-container {
         display: flex;
         flex-wrap: wrap;
