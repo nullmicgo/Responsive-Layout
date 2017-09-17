@@ -4,82 +4,104 @@
 <meta charset="utf-8">
 <title>Responsive Layout</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600i,700" rel="stylesheet">
 <link rel="stylesheet" href="css/normalize.css">
 <link rel="stylesheet" href="css/main.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
-		<header class="header">
-			<h1 class="logo">Student Name</h1>
-			 <ul class="nav">
-		          <li><a href="#">home</a></li>
-		          <li><a href="#">portfolop</a></li>
-		          <li><a href="#">contact</a></li>
-       		 </ul>
+		<header class="main-header">
+			<div class="container clearfix">
+				<h1 class="name">Student Name</h1>
+				 <ul class="main-nav">
+			          <li><a href="#">home</a></li>
+			          <li><a href="#">portfolop</a></li>
+			          <li><a href="#">contact</a></li>
+	       		 </ul>
+	       	</div><!-- / container  -->
 		</header>
 
 		<main>
-			<section class="about">
-				<img src="images/responsive-layout-profile.png" alt="developer-face">
-				<p>Hi! I', a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and i am excited to put all my skills to use!</p>
-			</secton>
+			<section class="about-me">
+				<div class="container clearfix">
+					<img class="profile-picture" src="images/responsive-layout-profile.png" alt="developer-face">
+					<p>Hi! I', a front-end developer who loves responsive design and css. I recently finished learning front-end web development at Treehouse and i am excited to put all my skills to use!</p>
+				</div><!-- / container  -->
+			</section><!-- / about-me  -->
 
 			<section class="portfolio">
-				<h1>portfolio</h1>
-					<div class="portfolio-container">
-						<div class="portfolio-item">
-							<img src="images/portfolio-1.png" alt="developer-face">
-							<h1>Marketing Page</h1>
-							<p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
-						</div>
-						<div class="portfolio-item">
-							<img src="images/portfolio-2.png" alt="developer-face">
-							<h1>Search Page</h1>
-							<p>This project searched through a specific database to find information that the user is trying to look up.</p>
-						</div>
-						<div class="portfolio-item">
-							<img src="images/portfolio-3.png" alt="developer-face">
-							<h1>Travel App</h1>
-							<p>This project searched through a specific database to find information that the user is trying to look up.</p>
-						</div>
+					<div class="container clearfix">
+						<h2>portfolio</h2>
+							<div class="portfolio-container">
+								<div class="portfolio-item">
+									<img class="portfolio-item-img" src="images/portfolio-1.png" alt="developer-face">
+									<h3>Marketing Page</h3>
+									<p>This project shows the front page of a marketing website meant for a specific business I'm interested in.</p>
+								</div>
+								<div class="portfolio-item">
+									<img class="portfolio-item-img" src="images/portfolio-2.png" alt="developer-face">
+									<h3>Search Page</h3>
+									<p>This project searched through a specific database to find information that the user is trying to look up.</p>
+								</div>
+								<div class="portfolio-item">
+									<img class="portfolio-item-img" src="images/portfolio-3.png" alt="developer-face">
+									<h3>Travel App</h3>
+									<p>This project searched through a specific database to find information that the user is trying to look up.</p>
+								</div>
 
-						<div class="portfolio-item">
-							<img src="images/portfolio-4.png" alt="developer-face">
-							<h1>Map of Favorote Spots</h1>
-							<p>This project compares travel times base on different traansportation method snad tells you the best one.</p>
-						</div>
+								<div class="portfolio-item">
+									<img class="portfolio-item-img" src="images/portfolio-4.png" alt="developer-face">
+									<h3>Map of Favorote Spots</h3>
+									<p>This project compares travel times base on different traansportation method snad tells you the best one.</p>
+								</div>
 
-						<div class="portfolio-item">
-							<img src="images/portfolio-5.png" alt="developer-face">
-							<h1>Photo Gallery</h1>
-							<p>This project shows pictures from a recent trip to the viewer and allows them to eaily nagate through photos</p>
-						</div>
+								<div class="portfolio-item">
+									<img class="portfolio-item-img" src="images/portfolio-5.png" alt="developer-face">
+									<h3>Photo Gallery</h3>
+									<p>This project shows pictures from a recent trip to the viewer and allows them to eaily nagate through photos</p>
+								</div>
 
-						<div class="portfolio-item">
-							<img src="images/portfolio-6.png" alt="developer-face">
-							<h1>Calculator</h1>
-							<p>Someone can enter in the numbers they want, and press the big blue button and get the result</p>
-						</div>
-					</div>
-			</secton>
+								<div class="portfolio-item">
+									<img class="portfolio-item-img" src="images/portfolio-6.png" alt="developer-face">
+									<h3>Calculator</h3>
+									<p>Someone can enter in the numbers they want, and press the big blue button and get the result</p>
+								</div>
+							</div>
+					</div><!-- / container  -->
+			</section><!-- / portfolio  -->
 
 			<section class="contact">
-				<h1>contact</h1>
-				<p>if you're interested in chatting or want more information about what i've been working on, i'd love to hear from you!</p>
-				<p>Phone<strong>+1(111)555-1234</strong></p>
-				<p>Email<strong>email@yourside.com</strong></p>
-			</secton>
+				<div class="container clearfix">
+					<h2>contact</h2>
+					<p>if you're interested in chatting or want more information about what i've been working on, i'd love to hear from you!</p>
+					<p>Phone&nbsp;&nbsp;<strong>+1(111)555-1234</strong></p>
+					<p>Email&nbsp;&nbsp;<strong>email@yourside.com</strong></p>
+				</div><!-- / portfolio  -->
+			</section><!-- / contact  -->
 
-			<footer>
-				<h1>Student Name</h1>
-				<nav>
-					<ul>
-					<li>home</li>
-					<li>portfolio</li>
-					<li>contact</li>
-					</ul>
-				</nav>
-			</footer>
+
+
+
+
+			<footer class="main-footer">
+				<div class="container clearfix">
+					<hr />
+					<div class="footer-left">Student Name</div>
+					<div class="footer-right">
+						<ul class="footer-nav">
+				          <li><a href="#">home</a></li>
+				          <li><a href="#">portfolop</a></li>
+				          <li><a href="#">contact</a></li>
+		       		 	</ul>
+						<span class="back-top-top">back to top</span>
+					</div>
+		       	</div><!-- / container  -->
+			</footer><!-- / footer  -->
+
+
+
+
+
+
 		</main>
 </body>
 </html>
