@@ -88,6 +88,8 @@ Base Layout Styles
     font-weight: lighter;
     font-size: 0.95em;
     padding-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+
 }
 .portfolio-item h3 {
     color: black;
