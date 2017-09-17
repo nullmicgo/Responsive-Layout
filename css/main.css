@@ -36,6 +36,10 @@ Base Layout Styles
 *******************************/
 /* ---- Navigation -----  */
 
+.treehouse a{
+  color: #62d07f;
+  font-weight: bold;
+}
 .name {
     font-size: 1.80em;
     color: #4a4a4a;
