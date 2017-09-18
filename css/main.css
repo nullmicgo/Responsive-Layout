@@ -185,7 +185,6 @@ Media Queries
         ;
     }
     .portfolio-item {
-        flex-wrap: 1;
         flex-basis: 300px;
     }
     .footer-nav {
@@ -235,7 +234,6 @@ Media Queries
         ;
     }
     .portfolio-item {
-        flex-wrap: 1;
         flex-basis: 250px;
     }
 }
